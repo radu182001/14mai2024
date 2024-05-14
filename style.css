@@ -263,6 +263,16 @@ img {
     width: 100%;
 }
 
+.lyrics {
+    color: var(--clr-dark);
+    overflow-y: auto;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: var(--clr-blue) solid 0.2rem;
+}
+
 @keyframes shake {
     0% {
         transform: translateX(-5px);
