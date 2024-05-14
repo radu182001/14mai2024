@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pentru Andra</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1 style="color: var(--clr-dark)">Introdu codul</h1>
+      <div class="input-container">
+        <div class="input-field">
+          <h2 style="color: var(--clr-dark)">1</h2>
+          <input
+            id="1"
+            type="text"
+            maxlength="1"
+            oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+          />
+        </div>
+        <div class="input-field">
+          <h2 style="color: var(--clr-dark)">2</h2>
+          <input
+            id="2"
+            type="text"
+            maxlength="1"
+            oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+          />
+        </div>
+        <div class="input-field">
+          <h2 style="color: var(--clr-dark)">3</h2>
+          <input
+            id="3"
+            type="text"
+            maxlength="1"
+            oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+          />
+        </div>
+      </div>
+      <p id="warning" class="cod-gresit">Cod greșit!</p>
+      <h3 class="instructiune">Click pe seif ca să-l deschizi</h3>
+      <img
+        id="seif"
+        class="safe unselectable"
+        src="../assets/safe.png"
+        alt=""
+      />
+      <h2>Indicii</h2>
+      <div class="indicii-container">
+        <p>
+          1. Loc urât pe care-l ocoliți mereu când vreți să faceți cumpărături.
+        </p>
+        <p>2. Prin câte tărâmuri străine ați umblat? ;P</p>
+        <p>3. Câți ani are Ilinca?</p>
+      </div>
+    </div>
+
+    <script src="./challenge3.js"></script>
+  </body>
+</html>
